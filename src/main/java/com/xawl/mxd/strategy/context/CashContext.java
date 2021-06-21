@@ -8,7 +8,7 @@ import com.xawl.mxd.strategy.algorithm.CashSuper;
 /**
  * @Author mxd
  * @Date 2021/4/26 11:00
- *
+ * 具体的策略算法
  */
 
 public class CashContext {
