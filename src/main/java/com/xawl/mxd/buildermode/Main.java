@@ -26,5 +26,6 @@ public class Main {
         director.construct(builder2);
         Product product2 = builder2.getResult();
         product2.show();
+        
     }
 }
