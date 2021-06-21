@@ -14,6 +14,5 @@ public class Test {
 
         AbstractClass b = new ConcreteClassB();
         b.show();
-
     }
 }
