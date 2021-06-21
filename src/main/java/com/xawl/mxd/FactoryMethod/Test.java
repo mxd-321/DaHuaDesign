@@ -20,6 +20,5 @@ public class Test {
         operation.setNumberB(2);
         double result = operation.getResult();
         System.out.println(result);
-
     }
 }
