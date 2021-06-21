@@ -3,6 +3,7 @@ package com.xawl.mxd.prototype;
 /**
  * @Author mxd
  * @Date 2021/6/16 9:21
+ *  简历模板
  */
 
 public class Resume implements Cloneable{
