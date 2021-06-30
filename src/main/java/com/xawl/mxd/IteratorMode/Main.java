@@ -9,6 +9,7 @@ import java.util.ArrayList;
 /**
  * @Author mxd
  * @Date 2021/6/30 21:58
+ *  迭代器模式
  */
 
 public class Main {
