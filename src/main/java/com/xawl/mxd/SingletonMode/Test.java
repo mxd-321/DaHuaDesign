@@ -12,8 +12,15 @@ public class Test {
         Singleton1 singleton1 = Singleton1.INSTANCE;
 
         // 懒汉式，双端检锁机制
-        Singleton2 singleton2 = Singleton2.getInstance();
+        Singleton2 singleton21 = Singleton2.getInstance();
+        Singleton2 singleton22 = Singleton2.getInstance();
+        System.out.println(singleton21 == singleton22);
+
 
         // 静态内部类
+        Singleton3 singleton31 = Singleton3.getInstance();
+        Singleton3 singleton32 = Singleton3.getInstance();
+
+        System.out.println(singleton31 == singleton32);
     }
 }

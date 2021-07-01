@@ -9,7 +9,7 @@ package com.xawl.mxd.SingletonMode;
 public class Singleton3 {
     private Singleton3() {}
 
-    public static class Inner {
+    private static class Inner {
         private static final Singleton3 INSTANCE = new Singleton3();
     }
 
